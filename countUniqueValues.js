@@ -5,6 +5,7 @@
 // output: 5
 //  explaination: in the given array if we check the unique values results n 5 , we do not have to count repetative values.
 
+// Time complexity of this is O(n)
 function countUniqueValues(arr){
     if(arr.length ===0) return 0;
    var i=0
