@@ -7,17 +7,18 @@
 
 // Time complexity of this is O(n)
 function countUniqueValues(arr){
-    if(arr.length ===0) return 0;
-   var i=0
+    if(arr.length ===0) return 0;  //check if arr ka length ==0 so simply return 0 i.e, if array is empty return 0
+   var i=0 //pointer1
 
-    for(var j=1; j< arr.length; j++){
-        if(arr[i]!== arr[j]){
+    for(var j=1; j< arr.length; j++) //looping over pointer2 (i.e, j)
+    {
+        if(arr[i]!== arr[j]){ //checking if both pointer doesn't match so increament i
             i++;
-            arr[i]= arr[j];
+            arr[i]= arr[j];  //and value of arr[j] transfers to arr[i]
             // console.log(arr[i]);
         }
         // console.log(i,j)
     }
-    return i+1;
+    return i+1; 
 }
 console.log(countUniqueValues([1,2,2,5,7,8,8,99]))
