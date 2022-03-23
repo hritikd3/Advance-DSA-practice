@@ -47,7 +47,11 @@ stack.push(400)
 stack.push(500)
 stack.push(600)
 stack.display();
-// stack.pop();
+stack.pop(600);
+stack.display();
+stack.pop(500);
+stack.display();
+stack.pop();
 // stack.display();
 // console.log(stack.isEmpty())
 // console.log(stack.getTop())
