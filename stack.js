@@ -31,11 +31,11 @@ class Stack{
         console.log(this.arr)
     }
 
-    // getTop(){
-    //     if(!this.isEmpty()){
-    //         return this.arr[this.top];
-    //     }
-    // }
+    getTop(){
+        if(!this.isEmpty()){
+            return this.arr[this.top];
+        }
+    }
 }
 
 
@@ -53,6 +53,6 @@ stack.pop(500);
 stack.display();
 stack.pop();
 // stack.display();
-// console.log(stack.isEmpty())
+console.log(stack.isEmpty()) // we won't have empty array so false
 // console.log(stack.getTop())
 
