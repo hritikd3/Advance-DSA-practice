@@ -1,4 +1,12 @@
-let input = [2,5,7,8,11,3];
+// sample input:3 2 7 4 1
+// Sample Output:
+// 4
+// Sample Explanation:
+// We'll make three sets as follows, (3, 2), (7) and (4, 1). So our answer will be abs(5 - 7) + abs(5- 5) + abs(7 - 5) = 4.
+ 
+
+
+let input = [3,2,7,4,1];
 
 
 function sum(x) {
