@@ -6,7 +6,7 @@
  
 
 
-let input = [3,2,7,4,1];
+let input = [3,2,7,4,6,1];
 
 
 function sum(x) {
